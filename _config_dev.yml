@@ -1,0 +1,44 @@
+# Site settings
+name: Yuxuan Xiong
+title: Yuxuan Xiong
+description:
+  Full-stack software engineer with a focus on intuitive user interfaces, robust server architecture, and efficient database solutions
+url: https://gyoxxi.github.io/
+baseurl: ''
+email: xyxnusstu@gmail.com
+#cover:
+logo: https://gyoxxi.github.io/img/emojis/technologist.png
+resume: https://gyoxxi.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:xyxnusstu@gmail.com
+  - title: github
+    url: https://github.com/gyoxxi
+  - title: instagram
+    url: https://www.instagram.com/gyoxxi__
+  - title: linkedin
+    url: https://www.linkedin.com/in/yuxuan-xiong-b787341b7
+  - title: issuu
+    url: https://issuu.com/yuxuanxiong/docs/2021fall_portfolio_future100
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

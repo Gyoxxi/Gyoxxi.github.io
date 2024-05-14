@@ -1,0 +1,30 @@
+{
+  "name": "gyoxxi.github.io",
+  "version": "1.0.0",
+  "description": "Software developer from UPenn",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyoxxi/Gyoxxi.github.io.git"
+  },
+  "author": "Yuxuan Xiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gyoxxi/Gyoxxi.github.io/issues"
+  },
+  "homepage": "https://github.com/Gyoxxi/Gyoxxi.github.io#readme",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

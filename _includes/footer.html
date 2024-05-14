@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="footer__copyright">
+    <div class="top">
+      <span>Adapted from</span>
+    </div>
+    <div class="bottom">
+      <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">
+        <span class="text">Brittany Chiang's website</span>
+      </a>
+    </div>
+  </div>
+  <div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
+</footer>
