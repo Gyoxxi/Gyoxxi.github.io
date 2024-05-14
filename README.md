@@ -1,5 +1,7 @@
 # Personal Website
 
+A simple static website built with Jekyll
+
 ## Dependencies
 
 - [Gulp](https://gulpjs.com/)
