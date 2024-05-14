@@ -2,7 +2,7 @@
 name: Yuxuan Xiong
 title: Yuxuan Xiong
 description:
-  Full-stack software engineer with a focus on intuitive user interfaces, scalable server architecture, and optimized database solutions
+  Full-stack software engineer with a focus on intuitive user interfaces, robust server architecture, and efficient database solutions
 url: https://gyoxxi.github.io/
 baseurl: ''
 email: xyxnusstu@gmail.com
@@ -14,8 +14,12 @@ social:
     url: mailto:xyxnusstu@gmail.com
   - title: github
     url: https://github.com/gyoxxi
+  - title: instagram
+    url: https://www.instagram.com/gyoxxi__
   - title: linkedin
     url: https://www.linkedin.com/in/yuxuan-xiong-b787341b7
+  - title: issuu
+    url: https://issuu.com/yuxuanxiong/docs/2021fall_portfolio_future100
 
 # Build settings
 markdown: kramdown
