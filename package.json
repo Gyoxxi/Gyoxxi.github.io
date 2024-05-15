@@ -26,10 +26,7 @@
     "gulp-imagemin": "^9.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
-    "mysql2": "^3.9.7",
-    "sass": "^1.77.1"
-  },
-  "devDependencies": {
+    "sass": "^1.77.1",
     "eslint": "^9.2.0"
-  }
+  },
 }
