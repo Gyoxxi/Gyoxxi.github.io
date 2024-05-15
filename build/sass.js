@@ -1,11 +1,10 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
 
 const scssPath = '_scss/*.scss';
 const destPath = '_site/css';
 
-// Function to dynamically import gulp-autoprefixer
 async function loadAutoprefixer() {
     const { default: autoprefixer } = await import('gulp-autoprefixer');
     return autoprefixer;
