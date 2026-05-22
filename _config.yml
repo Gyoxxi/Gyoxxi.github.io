@@ -33,6 +33,11 @@ exclude:
   - 'build'
   - 'gulpfile.js'
   - 'package.json'
+  - 'package-lock.json'
+  - 'tsconfig.json'
+  - 'tsconfig.node.json'
+  - 'eslint.config.mjs'
+  - 'gulpfile.ts'
 
 keep_files:
   - 'CNAME'
