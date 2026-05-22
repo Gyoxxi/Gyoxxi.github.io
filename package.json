@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
-    "build": "gulp build"
+    "build": "gulp build",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint _scripts/"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,14 @@
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-eslint": "^6.0.0",
     "gulp-imagemin": "^9.1.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2",
     "sass": "^1.77.1",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.2.0"
   }
 }

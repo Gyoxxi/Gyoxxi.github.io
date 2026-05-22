@@ -218,7 +218,8 @@ strong {
   bottom: 25px;
   right: 10px;
   cursor: pointer;
-  display: none;
+  opacity: 0;
+  pointer-events: none;
   @include desktop {
     bottom: 20px;
     right: 7px;
